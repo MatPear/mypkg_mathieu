@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# mypkg (here is Mathieu’s change)
+# mypkg
 
 <!-- badges: start -->
 <!-- badges: end -->
