@@ -1,0 +1,18 @@
+#' My log function
+#'
+#' @param x a numerical vector of length n
+#'
+#' @return a vector of log(x) of length n
+#' @export
+#'
+#' @examples
+#' mylog(c(10, exp(2), 1))
+
+mylog_slow <- function(x){
+  n <- length(x)
+  res <- NULL
+  for(i in 1:n){ # Initialize output vector of type numeric
+    res <- c(res, log(x[i])) # More efficient and faster
+  }
+  return(res)
+}
